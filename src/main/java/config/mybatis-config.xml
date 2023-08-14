@@ -28,6 +28,7 @@
 	<mappers>
 		
 		<mapper resource="mapper/UserInfoMapper.xml" />
+		<mapper resource="mapper/BoardInfoMapper.xml" />
 	
 	</mappers>
 

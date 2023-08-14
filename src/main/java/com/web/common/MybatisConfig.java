@@ -19,7 +19,7 @@ public class MybatisConfig {
 	// 메인 메소드 실행 전에 실행- static
 	static {
 		try {
-			InputStream is = Resources.getResourceAsStream(CONFIG_PATH);
+			InputStream is= Resources.getResourceAsStream(CONFIG_PATH);
 			SqlSessionFactoryBuilder ssfb = new SqlSessionFactoryBuilder();
 			SSF = ssfb.build(is);
 		} catch (IOException e) {
